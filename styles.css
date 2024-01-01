@@ -1,0 +1,171 @@
+html{
+  scroll-behavior:smooth;
+  scroll-padding-top:270px;
+}
+
+body{
+  margin:20px 30px;
+  margin-bottom:750px;  
+  
+}
+
+nav{
+  background-color:white;
+}
+
+.katawan{
+  position:absolute;
+  background-color:white;
+  margin-top:250px;
+  }
+
+
+.pic1{
+  height:150px; 
+  width:150px; 
+  border-radius:50%;
+  margin-right:20px;
+  border:3px rgb(37,123,202) solid;}
+
+.container{
+  display:flex;
+  justify-content:start;
+  align-items:space-between;
+  margin:10px 0;
+}
+
+.bagocontainer{
+  display:flex;
+  justify-content:start;
+  align-items:space-between;
+  margin:20px 0;
+  margin-left:50px;
+}
+
+h1{
+  font-size:xxx-large;
+  font-weight:bold;
+  color: rgb(37,123,202)}
+
+h2{
+  color: rgb(37,123,202);
+  border-top:1px rgb(37,123,202)solid;
+  padding-top:5px;
+  position:relative;
+  }
+
+.star{
+    color: rgb(37,123,202);
+    margin-top:none;}
+
+.logo{
+  height:100%;
+  width:100%;
+  margin-bottom:0;
+  object-fit:contain;
+}
+
+.logobox{
+  height:120px;
+  width:200px;
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right:5px;
+}
+
+h3{
+  margin-top:0;
+  color:rgb(37,123,202) ;
+  margin-bottom:0;
+  margin-right:15px;
+}
+
+p{
+  margin-bottom:40px;
+}
+
+.par{
+  color:rgb(37,123,202);
+  margin-bottom:0;
+}
+
+.company{
+  display:flex;
+  align-items:start;
+}
+
+.skillscontainer{
+  display:grid;
+  grid-template-columns: auto auto auto;
+}
+
+.skillbox{
+  margin-bottom:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.skillicon{
+  height:75px;
+  width:75px;
+  object-fit:contain;
+}
+
+.blocker{
+  text-align:justify;
+}
+
+.paa{
+  text-align:center;
+  margin-bottom:100px;}
+
+.butones1{
+  
+  height:40px;
+  width:170px;
+  background-color:rgb(37,123,202);
+  border:none;
+  color:white;
+  font-weight:bold;
+  font-size:large;
+  border-radius:20px;
+}
+
+.butones1:hover{
+  background-color:white;
+  color:rgb(37,123,202);
+  border:1px rgb(37,123,202) solid;
+}
+
+.butones1:active{
+  background-color:white;
+  color:rgb(37,123,202);
+  border:1px rgb(37,123,202) solid;
+}
+
+.butones{
+  display:flex;
+  margin-top:5px;
+  justify-content:space-between;
+}
+
+.ulo{
+  background-color:none;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index:10;
+  padding:0px 30px;
+  padding-bottom:5px;
+  margin-bottom:5px;
+}
+
+.bagopic{
+  object-fit:contain;
+}
+
